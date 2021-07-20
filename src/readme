@@ -25,3 +25,5 @@ src/server.ts executa o que está no server.ts
 
 ### padrão sado para arquitetura - > Package by feature
 ### DTO data transfer object
+### PROVIDERS como o repositories, mas para serviços externos
+
