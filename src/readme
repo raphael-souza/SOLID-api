@@ -12,6 +12,7 @@ $ yarn run tsc --init
 $ code .
 $ yarn add @types/express -D
 
+$ yarn add uuidv4   id unico 
 
 
 ### "start": tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts
@@ -21,3 +22,6 @@ tsnd -> ts-node
 --ignore-watch node_modules -> ignora o mudanças no node_modules
 
 src/server.ts executa o que está no server.ts
+
+### padrão sado para arquitetura - > Package by feature
+### DTO data transfer object
