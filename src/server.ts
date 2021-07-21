@@ -1,3 +1,4 @@
 import { app } from "./app";
+console.info("iniciando API");
 
-app.listen(3333);
+app.listen(8080);

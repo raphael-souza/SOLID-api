@@ -14,6 +14,8 @@ $ yarn add @types/express -D
 
 $ yarn add uuidv4   id unico 
 
+$  yarn add nodemailer
+
 
 ### "start": tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts
 tsnd -> ts-node
@@ -27,3 +29,4 @@ src/server.ts executa o que está no server.ts
 ### DTO data transfer object
 ### PROVIDERS como o repositories, mas para serviços externos
 
+### enviar emails através do https://mailtrap.io/

@@ -5,6 +5,7 @@ import { ICreateUserRequestDTO } from './CreateUserDTO';
 
 export class CreateUserUSeCase {
 
+  // inversão de dependencias 
   constructor(
     private usersRepository: IUserRepository,
     private mailProvider: IMailProvider) {
