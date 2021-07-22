@@ -1,18 +1,14 @@
 import { Router } from "express";
 import { createUserController } from "./useCases/createUser";
 
-const router = Router();
+export const router = Router();
 
-router.get('/', (request, response) => {
-  console.info("get --> users")
+router.get('/', async (request, response) => {  
 
-  return response.json({ message: "SOLID API"})
+  return response.send("SOLID API GET");
 });
 
-router.post('/users', (request, response) => {
-  // return response.status(201).send();
-  console.info("post --> users")
+router.post('/', async (request, response) => {
+  
   return createUserController.handle(request, response)
 });
-
-export { router }

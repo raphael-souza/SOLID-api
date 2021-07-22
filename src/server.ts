@@ -1,4 +1,11 @@
 import { app } from "./app";
-console.info("iniciando API");
 
-app.listen(8080);
+const server = app.listen(3333, () => {
+  console.info('ouvindo porta 3333');
+
+  process.on('SIGINT', () => {
+    server.close();
+
+    console.info("app finalizado!");
+  })
+});

@@ -1,8 +1,11 @@
 import express from 'express';
 import { router } from './routes';
-const app = express()
+import cors from 'cors';
 
-app.use(express.json);
-app.use(router);
+export const app = express()
 
-export { app }
+app.use(cors());
+app.use('/user', router);
+app.use('/', (req, res) => res.send("API solid"));
+
+// export { app }
