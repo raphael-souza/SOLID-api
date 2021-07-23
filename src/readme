@@ -1,32 +1,6 @@
-### https://www.youtube.com/watch?v=vAV4Vy4jfkc&list=WL&index=1&t=681s
+Aplicação de conceitos para aprendizado dos conceitos do SOLID.
 
-$ mkdir solidapi
-$ cd solidapi/
-$ yarn init -y
-$ yarn add express
-$ yarn add express 
-$ yarn add typescript ts-node-dev -D
-$ yar run tsc-init
-$ yar run tsc --init
-$ yarn run tsc --init
-$ code .
-$ yarn add @types/express -D
+API criada utilizando NodeJs, Typescript express e Mailtrap para notificações por email.
 
-$ yarn add uuidv4   id unico 
-
-$  yarn add nodemailer
-
-
-### "start": tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts
-tsnd -> ts-node
---transpile-only -> apenas transpilar o codigo para javascript, não ficar fazendo check (otimiza os paranaue)
---respawn -> restarta após modificação
---ignore-watch node_modules -> ignora o mudanças no node_modules
-
-src/server.ts executa o que está no server.ts
-
-### padrão sado para arquitetura - > Package by feature
-### DTO data transfer object
-### PROVIDERS como o repositories, mas para serviços externos
-
-### enviar emails através do https://mailtrap.io/
+Foi seguido o exemplo do link:
+https://www.youtube.com/watch?v=vAV4Vy4jfkc&list=WL&index=1&t=681s
