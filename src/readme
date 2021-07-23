@@ -1,6 +1,6 @@
-Aplicação de conceitos para aprendizado dos conceitos do SOLID.
+Application of concepts for learning SOLID concepts.
 
-API criada utilizando NodeJs, Typescript express e Mailtrap para notificações por email.
+API created using NodeJs, Typescript express and Mailtrap for email notifications.
 
-Foi seguido o exemplo do link:
+The example of the link was followed:
 https://www.youtube.com/watch?v=vAV4Vy4jfkc&list=WL&index=1&t=681s
